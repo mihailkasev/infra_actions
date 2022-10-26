@@ -5,5 +5,5 @@ def index(request):
     return HttpResponse('У меня получилось! Ура, наконец!')
 
 
-def second_page(request):
+def second_pages(request):
     return HttpResponse('А это вторая страница. Да.')
